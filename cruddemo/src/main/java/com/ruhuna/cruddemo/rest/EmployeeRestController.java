@@ -71,7 +71,7 @@ public class EmployeeRestController {
         {
             employeeService.deleteById(requestedId);
         }
-        return "Deleted id "+requestedId +" from the database";
+        return "Deleted ID "+requestedId +" from the database";
     }
 
 }
